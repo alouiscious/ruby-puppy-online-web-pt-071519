@@ -22,15 +22,12 @@ class Dog
     @@all
     
   end
-  
-  
+
   def self.print_all
     @@all.each {|dogs| @@dogs_names << dogs.name}
-# binding.pry
     puts @@dogs_names
     
   end
-  
   
   def save
     @@all << self
