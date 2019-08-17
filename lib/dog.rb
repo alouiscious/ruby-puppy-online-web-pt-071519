@@ -30,7 +30,7 @@ class Dog
     
   end
   
-  def save              # requires 
+  def save              # added attr_writer
     @@all << self
 
   end
