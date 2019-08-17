@@ -6,7 +6,7 @@ require 'pry'
 
 class Dog
   
-  attr_accessor :name, #:save, :dogs_names
+  attr_accessor :name, :save, #:dogs_names
 
   def initialize(name)
     @name = name
