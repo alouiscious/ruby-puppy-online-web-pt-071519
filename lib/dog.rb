@@ -19,23 +19,23 @@ class Dog
   @@dogs_names = []
   
 
-  def self.all          # added attr_accessor
+  def self.all            # added attr_accessor
     @@all
     
   end
 
-  def self.print_all     # added attr_accessor   
+  def self.print_all      # added attr_accessor   
     @@all.each {|dogs| @@dogs_names << dogs.name}
     puts @@dogs_names     # used .name notation to                           # puts dog name instead of                         # the Dog instance object id.
     
   end
   
-  def save              # added attr_writer
+  def save                # added attr_writer
     @@all << self
 
   end
 
-  def self.clear_all
+  def self.clear_all      # added attr_accessor
     @@clear = @@all.clear
   end
   
