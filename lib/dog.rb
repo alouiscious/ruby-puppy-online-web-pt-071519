@@ -6,7 +6,8 @@ require 'pry'
 
 class Dog
   
-  attr_accessor :name, :save, :dogs_names
+  attr_accessor :name, :dogs_names
+  attr_writer :save
 
   def initialize(name)
     @name = name
@@ -29,7 +30,7 @@ class Dog
     
   end
   
-  def save
+  def save              # requires 
     @@all << self
 
   end
