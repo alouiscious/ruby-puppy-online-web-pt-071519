@@ -32,7 +32,7 @@ class Dog
   def self.print_all
     @@all.each {|dogs| @@dogs_names << dogs}
 # binding.pry
-    puts @@dogs_names.@name
+    puts @@dogs_names.name
   end
   
   
