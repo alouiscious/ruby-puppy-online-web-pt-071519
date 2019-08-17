@@ -25,7 +25,7 @@ class Dog
   
   
   def self.print_all
-    @@all.each {|dogs| @@dogs_names << dogs}
+    @@all.each {|dogs| @@dogs_names << dogs.name}
 # binding.pry
     puts @@dogs_names.to_s
     
