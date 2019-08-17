@@ -6,7 +6,7 @@ require 'pry'
 
 class Dog
   
-  attr_accessor :name, :dogs_names, :self
+  attr_accessor :name, :dogs_names, :self, :print_all
   attr_writer :save
 
   def initialize(name)
