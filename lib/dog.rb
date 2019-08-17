@@ -23,11 +23,6 @@ class Dog
     
   end
   
-
-  def self.dogs_names
-    @@dogs_names
-  end
-
   
   def self.print_all
     @@all.each {|dogs| @@dogs_names << dogs}
