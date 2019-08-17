@@ -19,7 +19,7 @@ class Dog
   @@dogs_names = []
   
 
-  def self.all
+  def self.all          # added attr_accessor
     @@all
     
   end
