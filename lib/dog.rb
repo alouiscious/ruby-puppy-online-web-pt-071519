@@ -24,9 +24,9 @@ class Dog
     
   end
 
-  def self.print_all        # used .name notation to                             # puts dog name instead of                           # the Dog instance object id.
+  def self.print_all     # added attr_accessor   
     @@all.each {|dogs| @@dogs_names << dogs.name}
-    puts @@dogs_names
+    puts @@dogs_names     # used .name notation to                           # puts dog name instead of                         # the Dog instance object id.
     
   end
   
